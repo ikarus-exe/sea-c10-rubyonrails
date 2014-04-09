@@ -1,2 +1,3 @@
 name, email, github
 Renée Hendricksen, renee@nird.us, reneedv
+Samantha Camus, xdothackerx@gmail.com, ikarus-exe
