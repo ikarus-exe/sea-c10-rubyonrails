@@ -1,5 +1,6 @@
 name, email, github
 Renée Hendricksen, renee@nird.us, reneedv
-Samantha Camus, xdothackerx@gmail.com, ikarus-exe
-Matthew Viens, Matthew.J.Viens@gmail.com, MatthewViens
 Cheri Allen, cheri@nird.us, cherimarie
+Matthew Viens, Matthew.J.Viens@gmail.com, MatthewViens
+Matthew James Stephenson, Msteph@uw.edu, mjstephenson
+Samantha "Sam" Camus, xdothackerx@gmail.com, ikarus-exe
