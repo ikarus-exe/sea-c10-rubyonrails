@@ -1,26 +1,40 @@
 class Calculator
 
 	def sum input
-		num = Array.new(input)
-		if num.empty?
-			return 0
+		total = 0
+		input.each do |i|
+			total += i
+		end
+		total
+	end
+
+
+	def multiply n1, n2 = nil
+
+		if n2.nil? == false
+			n1 * n2
+		else
+			n1[0]*n1[1]
+		end
+	end
+
+	def pow base, exponent
+		base**exponent
+	end
+
+	def fac n
+		if n == 0
+			return 1
 		end
 
-		if num.size == 1
-			return num[0]
+		i = 1
+		last = n+1
+		num = 1
+		while i < last  do
+			num = num*i
+ 			i +=1
 		end
-
-		if num.size == 2
-			answer = 0
-			num.each { |n| answer+=n }
-			return answer
-		end
-
-		if num.size > 2
-			answer = 0
-			num.each { |n| answer+=n }
-			return answer
-		end
+		num
 	end
 
 end
