@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require "./calculator"
 
 describe Calculator do

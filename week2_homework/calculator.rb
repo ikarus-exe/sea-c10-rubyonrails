@@ -17,5 +17,5 @@ class Calculator
 		return 1 if n.zero? 
 		n * fac(n-1)
 	end
-
+  
 end

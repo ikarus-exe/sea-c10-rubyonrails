@@ -6,5 +6,4 @@ class Animal
 	def make_noise instrument = "n/a"
 		"DRUMMSSS!"
 	end
-
 end
