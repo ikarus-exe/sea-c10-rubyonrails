@@ -1,21 +1,12 @@
 class Calculator
 
 	def sum input
-		total = 0
-		input.each do |i|
-			total += i
-		end
-		total
+		input.inject(0, :+)
 	end
 
 
-	def multiply n1, n2 = nil
-
-		if n2.nil? == false
-			n1 * n2
-		else
-			n1[0]*n1[1]
-		end
+	def multiply input
+		input.flatten.inject(:*)
 	end
 
 	def pow base, exponent
@@ -23,18 +14,8 @@ class Calculator
 	end
 
 	def fac n
-		if n == 0
-			return 1
-		end
-
-		i = 1
-		last = n+1
-		num = 1
-		while i < last  do
-			num = num*i
- 			i +=1
-		end
-		num
+		return 1 if n.zero? 
+		n * fac(n-1)
 	end
 
 end
