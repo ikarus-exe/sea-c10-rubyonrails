@@ -57,4 +57,3 @@ puts "What are the 2 most common vulnerabilities of our monsters?"
   $monsters.map{ |m| m[:vulnerabilities] }.flatten.each{ |d| count[d] += 1}
   count.each{ |k,v| puts k if v == count.values.max }
   count.each{ |k,v| puts k if v == count.values.max-1 }
-
